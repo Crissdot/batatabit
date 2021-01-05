@@ -417,9 +417,11 @@ main {
     color: #dddddd;
 }
 .plan-card__ca {
+    position: absolute;
     width: 150px;
     height: 48px;
-    margin-top: 25px;
+    bottom: 24px;
+    left: calc(50% - 75px);
     padding-bottom: 3px;
     background-color: var(--off-white);
     border: 2px solid var(--bitcoin-orange);
