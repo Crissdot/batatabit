@@ -375,6 +375,12 @@ main {
     border-radius: 8px;
     color: var(--just-white);
 }
+.basic {
+    background-color: var(--secondary-blue);
+}
+.recommended--vip {
+    background-color: var(--warm-black);
+}
 .plan-card__title {
     padding-top: 30px;
     font-size: 1.4rem;
@@ -399,6 +405,9 @@ main {
     font-size: 1.2rem;
     color: #757575;
 }
+.plan-card__saving--vip {
+    color: #dddddd;
+}
 .plan-card__ca {
     width: 150px;
     height: 48px;
@@ -413,10 +422,28 @@ main {
     line-height: 1.8rem;
     color: var(--black);
 }
+.plan-card__ca--basic {
+    border: 2px solid var(--secondary-blue);
+}
+.plan-card__ca--vip {
+    border: 2px solid var(--warm-black);
+}
 .plan-card__ca span {
     display: inline-block;
     width: 20px;
     height: 20px;
     background-image: url('./assets/icons/orange-right-arrow.svg');
     vertical-align: text-bottom;
+}
+.plan-card__ca--basic span {
+    filter: invert(45%) sepia(29%) saturate(3982%) hue-rotate(185deg) brightness(103%) contrast(94%);
+}
+.plan-card__ca--vip span {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(29deg) brightness(0%) contrast(100%);
+}
+.vip {
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+.vip--color {
+    color: white;
 }
